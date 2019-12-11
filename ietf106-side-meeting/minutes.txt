@@ -1,0 +1,155 @@
+Meeting minutes for IETF106 inofficial side meeting 'New IP Research'
+  See: https://trac.ietf.org/trac/ietf/meeting/wiki/106sidemeetings
+
+Time: Wednesday 11/20/2019, 8:30 AM, Room: Orchard
+
+Contact:
+   Richard Li, richard.li@futurewei.com
+
+Note taker:
+   Toerless Eckert (Futurewei), tte@cs.fau.de
+
+Meeting Description:
+   Discussion on New IP Architecture and Protocols for Future Networks
+
+More Information:
+   ITU-T Network 2030 has been studying futuristic applications such as
+   holographic type communications and industrial machine-to-machine
+   control/communications, and infrastructural evolution such as satellite
+   networks and industrial IoT. Among a few others, we would like to (1)
+   explore the impacts of futuristic applications to the IP architecture
+   and protocols, and (2) investigate the implications of infrastructural
+   evolution for the IP architecture and protocols.
+
+----
+Attendees:
+   88 attendees according to attached blue sheets.
+
+----
+Introduction:
+   See 00-IETF106_side-meeting-intro.pptx
+
+----
+Presentation 1:
+   See 01-High_Precision_Network_v3.pdf
+   Liang Geng - High Precision Communications  - gengliang@chinamobile.com
+
+Q&A:
+
+Greg Mirsky: telemtry (passive) will not replace active probing. Active needed for
+ installation, where no real traffic exists yet. Both tools need to be in the box.
+ ... Ok, what is open
+
+Stewart Bryant: we talk about dynamic applications and dynamic instrumentation
+ no solutions fr this yet. Predominant static tooling to
+
+Q china mobile: First priority inband OAM Very hard to do end-to-end
+in IP networks. Better support in prior transport networks.
+
+Yong Cui Tsinghua university: Have you thought about degree of precision ?
+Yes, very good question, need to work on answers.
+
+----
+Presentation 2:
+   See 02-IETF106-side-meeting-soip.pdf
+   Service Oriented Internet Protocol, Brian Carpenter
+
+Q&A:
+
+Nicollas Hart, Lancaster University: Deja Vu, walled gardens, probably more to it,
+but good history remember and learn from it. Applicable question also who pays for
+what servce.
+
+Jim Guichard, Futurewei: Challenge: What is definition of service, means so many
+different things to so many different people
+
+David Black, Dell: Mentioned draft, what is the name ?
+A: draft-jiang-service-oriented-ip
+
+? china mobile: The service from differnt point of view is for operators for example
+VPN, for individual user more like an application. Not clear what the context in the
+presentation is (operator, user)
+
+Aaeron Falk, Akamai:  Dispatcher shown to be in network, could this not also
+happen in the end-system ?
+A: Propose to happen as a separate box, so that end-system does not have to be changed ?
+Q: If you rotate it 90 degrees, it looks a lot like Taps
+
+--------
+Presentation 3:
+    See  03-IETF 106-side-meeting - ISTN.pdf
+    Research on Evolutional Integrated Satellite-Terrestrial Network
+    Hewi Li Tsinghua University
+
+No questions.
+
+--------
+Presentation 4:
+
+   Richard Li, Futurewei, Network 2030, ITU-T focus group.
+
+Q&A:
+
+Jim Reid RTFM LLP: 
+Q1: will slides /meetings be published ?
+
+A: yes,
+Q2: Output of ITU-T work in future ?
+
+A: working through end september 2020, then planning to proceed work in WG13 in ITU-T
+Q3: How would IRTF work interact with ITU-T work ?
+
+A: Three sub-teams currently in ITU-T: use-cases, services, architecture.
+   Not talking about solutions! Would like to see IRTF group to first review
+   output from ITU and voice opinion if it makes sense (ITU-T -> IRTF)
+
+Adrian Farrel, ISE: Thank you for putting this together. Lot of incentive likely of
+engineers in the room how to bend existing protocols to make them work in future, but
+we do not have a good understanding of future applications because we do not understand
+those future applications well. Little coordination of all the future research going on.
+
+A: Yes, think there are many open problems. At IP layer, layer 2, non IP layers,
+but far from protocol standardization, can not predict. Many verticals,
+cloud-driving, machine communications.
+
+Sheng Jiang: Already following network 2030 meetings. Some of those problem spaces can
+result in short term solutions, some of them give pause to rethink the fundamentals
+of IP network from the last 30 years. Talking about research group: what we first want
+though is to remember is that we may want to separately identify short and long-term
+issues, put short term into IETF, long-term into IRTF.
+
+Liang Geng China Mobile: IRTF open meeting had discussion about role of IRTF and how
+to coordinate with IETF. IRTF should serve to do the research work that can ultimately
+address IETF. But not a pure academic community. Eg.: Tsinghua proposal is something
+ that could practically be implemented / standardized by IETF.
+
+Aaron Falk: Was IRTF chair for a while, chartered many groups, not all successful. Thinks
+presentation is nice description of problem. Benefit of IRTF RG is gives opportunity
+to collaboration with IETF community not present otherwise in research communities.
+This works best when there is a well-defined problem, can be hard/big but needs to be
+well defined. Marketing issuue: how do i know i want to participate. Picture painted
+by presentation covers many problems. Scope described today is not a good match for
+a single activity, can have a mailing list, but would not have a lot of discussions.
+See a bunch of activities that could come out of this where people disagree on individual
+topics whcih could then spawn individual efforts. Maybe what to do, change thinking:
+Could create a stream of IRTF groups / topics, each with a little more focus.
+Also seen success of researchers with different funding sources / interests come
+together, e.g.: EU programs. They showed up, but no collaboration with IETF. Should not
+hae been set up in IRTF because they did not collaborate. Hopefully helpfull context.
+
+A: Thank you, short feedback: we are meeting with different research bodies that are already
+geting funding to look into long-term research and asked them to collaborate across boundaries
+of their own funding scope. IRTF would be a good body for such cross-funding source
+collaboration. The Internet is so successful (services, content, sharing).
+
+Colin Perkins IRTF chair:  Aaron said most of what i wanted to say. I can imagine
+some parts of this to fit scope of existing or new IRTF groups, some fitting into
+IETF and parts fitting neither IEF WG, IRTF RG. Neither of these sets of groups have
+been good at large-scale efforts
+
+Wes Hardaker, USC/ISI: Past has shown challenges when in parallel IRTF/IETF and ITU-T
+work at same time on same issues. Results in a lot of even more complex interactions.
+Review is hard to do when e.g.: ITU-T results have not been finished.
+
+Raise of hands: ca. 80% of attendendants indicated they would like to continue this effort
+[25 attendees put mail address onto blue sheet to join a mailing list].
