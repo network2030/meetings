@@ -1,0 +1,33 @@
+
+See etherpad for full agenda, notes and more: https://etherpad.wikimedia.org/p/v107-side-meeting
+
+New IP Architetecture and Protocols Meeting
+Wednesday, March 25, 2020
+7:30 am  |  (UTC-07:00) Pacific Time (US & Canada)  |  2 hrs
+Meeting number (access code): 627 299 859 
+Meeting password: 8CjPUGgaR99
+
+When it's time, join the meeting.
+https://futurewei.my.webex.com/futurewei.my/j.php?MTID=mfa1d34bd6f206e768351e5b010cb1649
+
+Add to Calendar
+https://futurewei.my.webex.com/futurewei.my/j.php?MTID=m035fce7bd56f4f654fa24a2fc2f8edaa
+
+JOIN BY PHONE
++1-408-418-9388 United States Toll
+Tap here to call (mobile phones only, hosts not supported): tel:%2B1-408-418-9388,,*01*627299859%23%23*01*
+
+Global call-in numbers
+https://futurewei.my.webex.com/futurewei.my/globalcallin.php?MTID=m630a47f7054bcdf78bde4ae97b580432
+
+JOIN FROM A VIDEO SYSTEM OR APPLICATION
+Dial sip:627299859@futurewei.my.webex.com
+You can also dial 173.243.2.68 and enter your meeting number.
+
+Join using Microsoft Lync or Microsoft Skype for Business
+Dial sip:627299859.futurewei.my@lync.webex.com
+
+Can't join the meeting?
+https://collaborationhelp.cisco.com/article/WBX000029055
+
+
